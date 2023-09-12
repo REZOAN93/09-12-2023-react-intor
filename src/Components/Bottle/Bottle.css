@@ -1,0 +1,61 @@
+#bottlesContainer {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+  width: 80%;
+  margin: auto;
+}
+#bottleBox {
+  border: 2px solid lightgrey;
+  background-color: white;
+  box-shadow: 10px 10px 50px 5px gray;
+  border-radius: 10px;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+}
+#bottleBox img {
+  width: 100%;
+  height: 300px;
+  border-radius: 10px;
+}
+.body-text p {
+  color: goldenrod;
+  margin-block-start: 5px;
+  margin-block-end: 3px;
+}
+.body-text h3 {
+  color: darkolivegreen;
+  margin-block-start: 2px;
+  margin-block-end: 4px;
+  text-align: center;
+}
+#btn-purchase{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 10px;
+    border: none;
+    color: white;
+    font-size: 18px;
+    background-color: darkgrey;
+}
+#btn-purchase:hover{
+    background-color: darkolivegreen;
+    cursor: pointer;
+    color: goldenrod;
+}
+#contianer{
+    display: flex;
+}
+.card-container{
+    width: 20%;
+    padding: 20px;
+    border-left: 5px solid gray;
+    margin-left: 20px;
+}
+#cart-details{
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    margin-bottom: 20px;
+}
